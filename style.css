@@ -251,7 +251,7 @@ body {
 }
 #projects .container{
   width: 80%;
-  margin-top: 15vh;
+  margin-top: 10vh;
   margin-bottom: 15vh;
 }
 #projects .container p{
@@ -261,7 +261,58 @@ body {
   padding: 40px 0px;
   
 }
+footer{
+  background-color: black;
+}
+footer .footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
 
+  
+}
+
+
+footer .footer-container .info img{
+  height: 100px;
+}
+footer .footer-container .info{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+footer .footer-container .follow{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 120px 0px;
+}
+footer .footer-container .about{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 120px 0px;
+}
+footer .footer-container .about a{
+  color: white;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+footer .footer-container h4,footer .footer-container p{
+  color: white;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+footer .footer-container i{
+  color: white;
+  text-decoration: none;
+  padding: 10px 0px;
+}
 
 
 
