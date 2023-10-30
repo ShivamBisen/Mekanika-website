@@ -15,8 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
-
 h1 {
   font-size: 50px;
   color: #222;
@@ -53,7 +51,7 @@ p {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
 }
 
 #header {
